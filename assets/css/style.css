@@ -1,0 +1,35 @@
+main {
+  text-align: center;
+}
+main .counterBody {
+  border: 1px solid black;
+  width: 25%;
+  height: 50vh;
+  background: linear-gradient(45deg, rgb(2, 0, 36) 0%, rgb(0, 0, 0) 2%, rgb(50, 50, 126) 64%);
+  padding-top: 20px;
+  margin: 10vh auto;
+}
+main .counterBody h1 {
+  color: white;
+}
+main .counterBody p {
+  color: white;
+  font-size: 2rem;
+}
+main .counterBody .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 250px;
+  margin: 0 auto;
+}
+main .counterBody .buttons button {
+  width: 100px;
+  padding: 10px;
+}
+main .counterBody .buttons button:active {
+  background-color: grey;
+}
+
+/*# sourceMappingURL=style.css.map */
